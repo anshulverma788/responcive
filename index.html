@@ -8,6 +8,230 @@
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="mobile2.css">
 </head>
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* background:linear-gradient(to right, #74d7d2, #fed6e3); */
+    background-color: rgb(71, 212, 212);
+    font-family: Arial, Helvetica, sans-serif
+}
+header{
+    /* box-shadow: black 0px 0px 10px ; */
+    /* height: 15vh; */
+    background-color: #8695e4;
+    width: 100%;
+}
+.header-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-list{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  }
+
+.nav-link:hover {
+  color: rgb(101, 236, 148);
+}
+
+
+.img-1 {
+  width: 100%;
+  height: 120vh;
+  background-size:auto;
+  background-position: center;
+}
+.Explore{
+  background-color: rgb(24, 123, 90);
+  height: 8vh;
+  width: 20vw;
+  border-radius: 10px;
+  position: relative;
+  bottom: 30vh;
+  left: 20.5vw;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: rgb(252, 252, 252);
+  font-size: 25px;
+  border: none;
+}
+.Explore:hover {
+  background-color: rgb(29, 74, 64);
+  color: rgb(255, 255, 255);
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 80px;
+  position: relative;
+  top: -10vh;
+}
+.content-para{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  width: 60%;
+  line-height: 1.5;
+}
+.content-para::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 35vw;
+  width: 30%;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  /* transform: scaleX(0); */
+  transform-origin: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Artical */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+.card{
+  overflow: hidden;
+width: 20vw;
+height: 85vh;
+border-radius: 10px;
+background: linear-gradient(to right, #8695e4, #b9d99d);
+box-shadow: rgb(12, 40, 56) 0px 0px 10px;
+}
+
+.img-2{
+  width: 20vw;
+  height: 50vh;
+  border-radius: 10px;
+}
+.img-2:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.h-1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+
+.p-1 {
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+  line-height: 1.5;
+}
+.read-more {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px ;
+  position: relative;
+  left: 7vw;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.6s ease;
+}
+.read-more:hover {
+  background-color: rgb(41, 158, 158);
+  color: rgb(0, 0, 0);
+}
+
+.div-2{
+  /* height: 150vh; */
+  display: flex;
+  gap: 100px;
+}
+.img-3{
+  width: 40vw;
+  height: 100vh;
+  border-radius: 20px;
+  position: relative;
+  left: 30px;
+}
+.about-us{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  padding: 70px;
+}
+.about-heading{
+  position: relative;
+  left: 10vw;
+}
+
+.about-para{
+  width: 100vh;
+  position: relative;
+  top: 5vh;
+  line-height: 30px;
+}
+.content-para-2{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  width: 60%;
+  line-height: 1.5;
+}
+/* .content-para-2::after {
+  content: '';
+  position: absolute;
+  bottom: -190vh;;
+  left: 35vw;
+  width: 30%;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transform-origin: center;
+  transition: transform 0.3s ease-in-out;
+} */
+.p-a{
+  font-size: 20px;
+  
+  position: relative;
+  top: 10vh;
+}
+.list{
+  position: relative;
+  top: 8vh;
+  left: 5vw;
+  line-height: 70px;
+}
+
+.png-1{
+  width: 30vw;
+  height: 70vh;
+  /* border-radius: 50%; */
+  position: relative;
+  left: 20vw;
+  bottom: 50vh;
+}
+    </style>
 
 <body>
     <header>
